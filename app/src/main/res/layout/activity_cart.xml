@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity"
+    android:background="@color/background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cartList"
+        android:layout_below="@id/totalPrice"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TotalPrice:"
+        android:textSize="30sp"
+        android:textColor="@color/Complimentbg"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="15dp"
+        android:background="@drawable/input_buttons"/>
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="Buy Now"
+        android:textColor="@color/background"
+        android:id="@+id/buyNow"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttons"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

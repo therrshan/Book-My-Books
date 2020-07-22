@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrder"
+    android:background="@color/background"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Enter The Details For Shipping"
+        android:textColor="@color/background"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Complimentbg"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:background="@drawable/input_buttons"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:background="@drawable/input_buttons"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:layout_marginTop="220dp"/>
+
+    <EditText
+        android:background="@drawable/input_buttons"
+        android:padding="10dp"
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginTop="280dp"/>
+
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/background"
+        android:text="Proceed to Payment"
+        android:textSize="22sp"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="500dp"/>
+
+
+
+</RelativeLayout>

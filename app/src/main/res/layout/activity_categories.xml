@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories"
+    android:layout_margin="10dp"
+    android:background="@color/background"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear1">
+
+
+    <ImageButton
+        android:id="@+id/marathiimg"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/marathi"
+        android:scaleType="centerCrop"
+        android:background="@drawable/buttons"
+        />
+
+    <ImageButton
+        android:layout_marginStart="80dp"
+
+        android:id="@+id/fictionimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fiction"
+        android:scaleType="centerCrop"
+        />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/marathitxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/Complimentbg"
+        android:text="MARATHI"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/fictiontxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_marginStart="250sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/Complimentbg"
+        android:gravity="center"
+        android:text="FICTION"
+        android:textSize="25sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear2"
+        android:layout_marginTop="210sp">
+
+
+        <ImageButton
+            android:id="@+id/thriller"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/thriller"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="10dp"
+            />
+
+        <ImageButton
+            android:layout_marginStart="70dp"
+            android:id="@+id/romanceimg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/romance"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/thrillertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/Complimentbg"
+        android:gravity="center"
+        android:text="THRILLER"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/romancetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:textColor="@color/Complimentbg"
+        android:layout_marginStart="250sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="ROMANCE"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear3"
+        android:layout_marginTop="420sp">
+
+
+        <ImageButton
+            android:id="@+id/selfhelp"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/selfhelp"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="10dp"
+            />
+
+        <ImageButton
+            android:layout_marginStart="70dp"
+            android:id="@+id/technical"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/technical"
+            android:scaleType="centerCrop"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/selfhelptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3"
+        android:layout_marginStart="30sp"
+        android:textColor="@color/Complimentbg"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="SELF HELP"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/technicaltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3"
+        android:textColor="@color/Complimentbg"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="TECHNICAL"
+        android:textSize="25sp" />
+
+
+
+
+
+
+
+</RelativeLayout>

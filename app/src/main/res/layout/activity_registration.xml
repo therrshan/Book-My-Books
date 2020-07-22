@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:background="@color/background"
+
+    >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:drawableLeft="@drawable/person"
+        android:textColor="@color/Complimentbg"
+        android:textColorHint="@color/Complimentbg"
+        android:hint=" Name"
+        android:inputType="textPersonName"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/email"
+        android:hint=" E-mail Id"
+        android:textColorHint="@color/Complimentbg"
+        android:textColor="@color/Complimentbg"
+        android:inputType="textEmailAddress"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/phone"
+        android:textColor="@color/Complimentbg"
+        android:textColorHint="@color/Complimentbg"
+        android:hint=" Contact no"
+        android:inputType="phone"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/lock"
+        android:textColor="@color/Complimentbg"
+        android:textColorHint="@color/Complimentbg"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/lock"
+        android:textColor="@color/Complimentbg"
+        android:textColorHint="@color/Complimentbg"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="18dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/button"
+        android:layout_width="212dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text=" Create Account"
+        android:background="@drawable/buttons"
+        app:cardBackgroundColor="@color/Complimentbg"
+        app:cardCornerRadius="20sp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/adamina"
+                android:gravity="center"
+                android:text="Sign up"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/app_logo_login"
+        android:layout_width="349dp"
+        android:layout_height="323dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/applogo" />
+
+
+
+
+</RelativeLayout>

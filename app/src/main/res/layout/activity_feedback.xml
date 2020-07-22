@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/fed"
+        android:layout_width="390dp"
+        android:layout_height="147dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:textColor="@color/Complimentbg"
+        android:fontFamily="serif"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="Any Feedbacks Regarding The Book Store And The App Are Welcome!"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="340dp"
+        android:layout_height="89dp"
+        android:background="@drawable/input_buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:hint="FEEDBACK" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="22sp"
+        android:background="@color/Complimentbg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/feedback" />
+</RelativeLayout>

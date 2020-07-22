@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="BookMyBooks"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".ConfirmOrder" />
+        <activity android:name=".Categories" />
+        <activity android:name=".CartActivity" />
+        <activity
+            android:name=".FlashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:parentActivityName=".FlashScreen" />
+        <activity android:name=".Registration" />
+        <activity
+            android:name=".Marathi"
+            android:label="Marathi"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Fiction"
+            android:label="Fiction"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Homepage"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Account"
+            android:label="Account"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Aboutus"
+            android:label="About"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Thriller"
+            android:label="Thriller"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Selfhelp"
+            android:label="Self Help"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Technical"
+            android:label="Technical"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Romance"
+            android:label="Romance"
+            android:parentActivityName=".Homepage" />
+        <activity
+            android:name=".Book_info"
+            android:theme="@style/Theme.Design.NoActionBar" />
+
+        <activity
+            android:name=".Search"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Edit_Info"
+            android:parentActivityName=".Account" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="Reset Password"
+            android:parentActivityName=".Login" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

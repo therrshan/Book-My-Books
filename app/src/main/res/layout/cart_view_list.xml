@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    app:cardElevation="15sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Complimentbg"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/cartName"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:text="Product name"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="5dp"
+            />
+
+        <TextView
+            android:id="@+id/cartQty"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            />
+
+        <TextView
+            android:id="@+id/abc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/cartName"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

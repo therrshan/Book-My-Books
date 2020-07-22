@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+            android:id="@+id/account"
+            android:icon="@drawable/myaccount"
+            android:title="Account" />
+
+    <item
+        android:id="@+id/Cart"
+        android:icon="@drawable/nav_cart"
+        android:title="cart" />
+
+
+    <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+
+    <item
+        android:id="@+id/srch"
+        android:icon="@drawable/ic_search"
+        android:title="Search For Books" />
+
+
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/category"
+        android:title="Categories"
+        />
+
+
+    <item
+        android:id="@+id/Contact"
+        android:title="Contact us"
+        android:icon="@drawable/ic_group_black_24dp"/>
+
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+
+</menu>

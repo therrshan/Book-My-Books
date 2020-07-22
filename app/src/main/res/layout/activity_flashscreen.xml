@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashScreen"
+    android:background="@color/background"
+
+    >
+    <ImageView
+        android:id="@+id/app_logo_login"
+        android:layout_width="349dp"
+        android:layout_height="323dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/applogo" />
+
+
+</RelativeLayout>
