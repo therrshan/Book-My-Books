@@ -18,6 +18,6 @@ Android E commerce application that enables a single seller to take his local bu
 
 <img src="https://github.com/therrshan/Book-My-Books/blob/master/ScreenShots/4.png" alt="" width="700" height="400">
 
-<img src="https://github.com/therrshan/Book-My-Books/blob/master/ScreenShots/5.png" alt="" width="700" height="400">
+<img src="https://github.com/therrshan/Book-My-Books/blob/master/ScreenShots/8.png" alt="" width="700" height="400">
 
 
